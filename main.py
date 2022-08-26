@@ -111,7 +111,7 @@ def get_ciba():
     return note_ch, note_en
 
 def get_qinghua():
-        url = "http://api.tianapi.com/caihongpi/index?key=948dbc24e9c06eeb7aa24df88f058579"
+    url = "http://api.tianapi.com/caihongpi/index?key=eefc5fa1e2cd04fb70680838cf1787b7"
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -124,7 +124,7 @@ def get_qinghua():
     return qinghua
 
 def get_riji():
-    url = "http://api.tianapi.com/tiangou/index?key=948dbc24e9c06eeb7aa24df88f058579"
+    url = "http://api.tianapi.com/tiangou/index?key=eefc5fa1e2cd04fb70680838cf1787b7"
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -137,7 +137,7 @@ def get_riji():
     return riji
 
 def get_kqzl():
-    url = "http://http://api.tianapi.com/aqi/index?key=eefc5fa1e2cd04fb70680838cf1787b7&area=%E8%A5%BF%E5%AE%89%E5%B8%82"
+    url = "http://api.tianapi.com/aqi/index?key=eefc5fa1e2cd04fb70680838cf1787b7&area=%E8%A5%BF%E5%AE%89%E5%B8%82"
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -150,7 +150,7 @@ def get_kqzl():
     return kqzl
 
 def get_xzys():
-    url = "http://api.tianapi.com/star/index?key=948dbc24e9c06eeb7aa24df88f058579&astro=taurus"
+    url = "http://api.tianapi.com/star/index?key=eefc5fa1e2cd04fb70680838cf1787b7&astro=%E9%87%91%E7%89%9B%E5%BA%A7"
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
@@ -163,7 +163,7 @@ def get_xzys():
     return xzys
 
 def get_jrgk():
-        url = "http://api.tianapi.com/star/index?key=948dbc24e9c06eeb7aa24df88f058579&astro=taurus"
+    url = "http://api.tianapi.com/star/index?key=eefc5fa1e2cd04fb70680838cf1787b7&astro=%E9%87%91%E7%89%9B%E5%BA%A7"
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
